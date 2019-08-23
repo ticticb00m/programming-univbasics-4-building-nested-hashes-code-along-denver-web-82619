@@ -4,6 +4,7 @@ def fourth_challenge
       :patriarch => {name: "Lord Montague", age: "53"},
       :matriarch => {name: "Lady Montague", age: "54"},
       :hero => {name: "Romeo", age: "15", status: "alive"},
+<<<<<<< HEAD
       :hero_friends => [{
                     :name => "Benvolio",
                     :age => "17",
@@ -11,6 +12,17 @@ def fourth_challenge
                     :name =>"Mercutio",
                     :age => "18",
                     :attitude => "hot-headed"}
+=======
+      :hero_friends => [
+        :Benvolio { :name => "Benvolio",
+                    :age => "17",
+                    :attitude => "worried"
+        }
+        :Mercutio { :name =>"Mercutio",
+                    :age => "18",
+                    :attitude => "hot-headed"
+        }
+>>>>>>> 19609ebb092d2947a699aff2411b017e31b0c3d6
       ]
    }, 
    :capulet => {
@@ -18,12 +30,25 @@ def fourth_challenge
       :matriarch => {name: "Lady Capulet", age: "51"},
       :heroine => {name: "Juliet", age: "15", status: "alive"},
       :heroine_friends => [
+<<<<<<< HEAD
         {  :name => "Steven",
           :age => "30",
           :attitude => "confused"} , 
         { :name => "Nurse",
           :age => "44",
           :attitude => "worried"}
+=======
+        :Steven{ 
+          :name => "Steven",
+          :age => "30",
+          :attitude => "confused"
+        }  
+        :Nurse{
+          :name => "nurse",
+          :age => "44",
+          :attitude => "worried"
+        }
+>>>>>>> 19609ebb092d2947a699aff2411b017e31b0c3d6
       ]
    }
 }
